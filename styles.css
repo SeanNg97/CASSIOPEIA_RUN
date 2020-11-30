@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  /*background-color: #1e2227;*/
+  background-image: url("img/purple.png");
+
+  font-family: 'Play', sans-serif;
+}
+
+.container{
+  background-color:  #1e2227;
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 10vh;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+img{
+   width:450px;
+   margin-left: 80px;
+}
+
+p{
+  width: 500px;
+  margin-left: 80px;
+  text-align: justify;
+  line-height: 1.5em;
+  color: white;
+}
+
+iframe{
+    margin-left: 50px;
+    width:560px;
+    height:315px;
+}
+
+.gamedescription{
+  display: inline-block;
+}
+
+ @media screen and (max-width: 1200px) {
+   p{
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 80%;
+   }
+
+   img{
+     margin-left: auto;
+      margin-right: auto;
+      display: block;
+   }
+
+   .container{
+     background-color:  #1e2227;
+     padding: 50px 20px;
+     border-radius: 20px;
+     margin-top: 5vh;
+     margin-left:30px;
+     margin-right: 30px;
+   }
+
+   .gamedescription{
+     display: block;
+   }
+
+   iframe{
+     margin-right: auto;
+     margin-left: auto;
+     width:520px;
+     height:300px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+  img{
+    width: 320px;
+  }
+
+  iframe{
+    margin-right: auto;
+    margin-left: auto;
+    width:420px;
+    height:230px;
+  }
